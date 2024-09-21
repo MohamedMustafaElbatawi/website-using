@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* *,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+body {
+    background-color: #00030050;
+    /* background: linear-gradient(#111, #222); */
+    /* background-image: linear-gradient(to right, #01022d, #000); */
+    /* min-height: 100vh; */
+    /* background: linear-gradient(to right, #000004e5, #06040478 30%),url(image/pexels-adria-masi-461420600-27962178.jpg) ; */
+   
+}   
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 2px;
+    z-index: 5;
+    width: 100%;
+    position: fixed;
+}
+header .logo{
+    font-size: 30px;
+    margin-left: 40px;
+    padding: 7px;
+    color: #fff;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    margin-right: 40px;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+ul li a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 7px;
+    text-transform: capitalize;
+}
+
+
+
+.img{
+    background: url(image/pexels-adria-masi-461420600-27962178.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding: 0 10px; 
+    text-align: center;
+}
+.center .title{
+    font-size: 55px;
+    font-family: 600;
+    color: #fff;
+    padding: 7px 0;
+}
+.center .sub-title{
+    font-size: 52px;
+    font-family: 600;
+    color: #fff;
+}
+.btns{
+    margin-top: 20px;
+
+}
+.btns button{
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+.btns button:first-child{
+    color: #fff;
+    background: transparent;
+}
+.btns button:first-child:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
